@@ -1,8 +1,8 @@
 {
-  "name": "rest-api",
+  "name": "nodejs-rest-api-mongodb",
   "version": "1.0.0",
-  "description": "rest api for goals ",
-  "main": "server.js",
+  "description": "rest api for setting Goals ",
+  "main": "server.js ",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/niemet0502/nodejs-rest-api-mongodb.git"
   },
-  "author": "marius niemet",
-  "license": "MIT ",
+  "author": "Marius NIEMET",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/niemet0502/nodejs-rest-api-mongodb/issues"
   },
@@ -22,5 +22,8 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
